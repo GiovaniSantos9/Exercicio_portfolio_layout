@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+   
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+/* header */
+
+.logo{
+    line-height: 27px;
+}
+
+header{
+    padding: 40px 4%;
+}
+
+header >.interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #707070;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.cabecalho nav ul{
+    list-style-type: none;
+}
+
+header nav.menu-desktop ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header h1{
+    color: #0000009f;
+}
+
+header button{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    border-radius: 5px;
+    border-color: #707070ad;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+/* Apresentacao */
+
+.apresentacao{
+    text-align: center;
+}
+
+.apresentacao h1{
+    font-size: 100px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+
+.apresentacao .work{
+    color: #535353;
+    margin-bottom: 100px;
+}
+
+.apresentacao i{
+    font-size: 30px;
+}
+
+/* Sobre */
+
+section.sobre{
+    background-color: #9e9e9e2c;
+    margin-top: 50px;
+    padding: 110px 18%;
+}
+
+.flex{
+    display: flex;
+}
+
+.subtitulo h3{
+    text-align: center;
+    font-size: 27px;
+    font-weight: 60;
+    margin-bottom: 10px;
+}
+
+.subtitulo .hr-titulo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.hr-titulo::before,
+.hr-titulo::after{
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+}
+
+.hr-titulo:not(:empty)::before{
+    margin-right: .25em;
+}
+.hr-titulo:not(:empty)::after{
+    margin-right: .25em;
+}
+
+.txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+    margin-right: 50px;
+    line-height: 25px;
+}
+
+.img-sobre{
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+/* Experiencia */
+
+section.experiencia{
+    padding: 90px 20%;
+}
+
+
+.container{
+    display: flex;
+    gap: 30px;  
+}
+
+.cargo {
+    display: flex;
+    text-align: right ;
+    gap: 5px 0;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.cargo p span{
+    font-size: 28px;
+}
+
+.txt-exp ul{
+    margin: 20px 0;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.txt-exp li{
+    padding: 10px;
+}
+
+.data{
+    font-size: 15px;
+}
+
+/* Projeto em destaque */
+
+.projetos{
+    padding: 50px 13%;  
+    background-color: #9e9e9e2c;
+}
+
+.projetos h3{
+    margin-top: 40px;
+}
+
+.projetos .container{
+    margin: 45px 0;
+}
+
+.containerpai{
+    padding: 5px 15%;
+}
+
+.txt-projeto1, .txt-projeto2{
+    margin: 20px 0;
+}
+
+.txt-projeto2{
+    text-align: right;
+}
+
+.txt-projeto1 h3{
+    font-size: 27px;
+    font-weight: 60;
+    margin-bottom: 10px;
+}
+
+.txt-projeto2 h3{
+    font-size: 27px;
+    font-weight: 60;
+    margin-bottom: 10px;
+}
+
+.txt-projeto1 p{
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 15px;
+}
+
+.txt-projeto2 p{
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 15px;
+}
+
+.p2{
+    word-spacing: 5px;
+    margin-top: 15px;
+}
+
+/* Outros projetos */
+
+section.outros{
+    background-color: #9e9e9e2c;
+    padding: 40px 13%;
+}
+
+div.img-outros .img{
+    background-color: #969696;
+    width: 110px;
+    height: 110px;
+}
+
+.outros .container{
+    display: flex;
+    flex-flow: column ;
+    
+}
+
+div.superior, .inferior{
+    display: flex;
+    gap: 50px;
+}
+
+div .inferior{
+    margin-bottom: 90px;
+}
+
+.outros .flex{
+    gap: 20px;
+}
+
+.txt-outros h3{
+    font-size: 25px;
+    font-weight: 60;
+    margin-bottom: 10px;
+}
+
+.outros .subtitulo{
+    margin-bottom: 50px;
+}
+
+.txt-outros p{
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 15px;
+}
+
+
+/* Footer */
+
+footer{
+    text-align: center;
+    padding: 0 10%;
+}
+
+footer h3{
+    font-size: 27px;
+    font-weight: 60;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.txt-footer p{
+    margin-bottom: 50px;
+}
+
+.txt-footer button{
+    margin-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+    padding: 8px 18px;
+    border-radius: 5px;
+    border-color: #707070ad;
+    border-width: 1px;
+    cursor: pointer;
+}
+
